@@ -7,8 +7,8 @@
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" id="theme-color" content="" />
-    <meta name="description" content="InproTelecom Uptime monitoring tool" />
-    <title>InproTelecom Uptime</title>
+    <meta name="description" content="InproTelecom Services monitoring tool" />
+    <title>InproTelecom Services</title>
     <style>
         .noscript-message {
             font-size: 20px;
@@ -16,6 +16,16 @@
             padding: 10px;
             max-width: 500px;
             margin: 0 auto;
+        }
+
+        /* CODIGO PARA EL TITULO */
+        span[class*="title"] {
+            font-size: 0 !important;
+        }
+        span[class*="title"]::after {
+            content: "InproTelecom Services" !important;
+            font-size: 24px !important;
+            visibility: visible !important;
         }
     </style>
 </head>
